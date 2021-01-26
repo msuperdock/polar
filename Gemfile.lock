@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.14.2)
+    google-protobuf (3.14.0)
+    libusb (0.6.4)
+      ffi (~> 1.0)
+      mini_portile2 (~> 2.1)
+    mini_portile2 (2.5.0)
+    rubyserial (0.6.0)
+      ffi (~> 1.9, >= 1.9.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  google-protobuf
+  libusb
+  rubyserial
+
+BUNDLED WITH
+   2.1.4
